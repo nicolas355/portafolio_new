@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <section>
       <Element className="grid gap-10" name="projects">
-        <SectionTitle title="Other projects" />
+        <SectionTitle title="Projects" />
         <Reveal>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mx-auto">
             {config.projects.map((project, index) => (

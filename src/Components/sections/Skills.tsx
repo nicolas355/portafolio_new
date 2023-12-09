@@ -58,7 +58,8 @@ export default function Skills() {
               <div className="flex items-center gap-4">
                 <div>
                   <p className="font-semibold text-xl">State management</p>
-                  <p className="text-slate-400"> Redux </p>
+                  <p className="text-slate-400"> Redux, Context </p>
+             
                 </div>
               </div>
               <div className="flex items-center gap-4">
