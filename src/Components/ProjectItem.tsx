@@ -41,7 +41,7 @@ const ProjectItem: React.FC<Props> = ({ title, description, image, url, github, 
           </div>
         </div>
         <a
-          className="justify-center inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-blue-500 rounded-lg hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-green-300 dark:bg-green-300 dark:hover:bg-green-400 dark:focus:ring-green-300"
+          className="justify-center inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-blue-500 rounded-lg hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-300 dark:hover:bg-blue-400 dark:focus:ring-blue-300"
           href={url}
           target="_blank"
         >
