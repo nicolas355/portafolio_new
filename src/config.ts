@@ -62,7 +62,7 @@ export const config = {
       url: 'https://ecomerce-next-js-ten.vercel.app/',
       github: '',
       image: '/projects/eccomerce-nextjs.png',
-      tech: ['Next 13', 'Tailwind', 'Context'],
+      tech: ['Next 13', 'Tailwind', 'Context','Vite'],
       id: 'chat',
     },
     {
@@ -72,7 +72,7 @@ export const config = {
       url: 'https://www.youtube.com/watch?v=nl2xVCPgMdU&feature=youtu.be',
       github: '',
       image: '/projects/imagen_guitarra.png',
-      tech: ['Remix', 'Tailwind CSS', 'strapi'],
+      tech: ['Remix', 'Tailwind CSS', 'strapi','postgresql'],
       id: 'anon-question',
     },
     {
@@ -86,13 +86,13 @@ export const config = {
       id: 'threads',
     },
     {
-      name: 'Recipes API - Javascript',
+      name: 'Recipes API - Javascript -' ,
       description:
         'Application that allows users to search, explore and save their favorite recipes. The app uses an API to get up-to-date information on a wide variety of recipes and provides an intuitive user interface to interact with these recipes.',
       url: 'https://ricepefinder.netlify.app/',
       github: '',
       image: '/projects/imagen_api_javascript.png',
-      tech: ['Javascript', 'Boostrap'],
+      tech: ['Javascript', 'Boostrap','LocalStorage'],
       id: 'api',
     },
    
