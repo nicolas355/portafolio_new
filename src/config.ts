@@ -65,6 +65,19 @@ export const config = {
       tech: ['Next 13', 'Tailwind', 'Context','Vite'],
       id: 'chat',
     },
+
+    {
+      name: 'Dashboard' ,
+      description:
+        'This development project represents my ability to create innovative and efficient frontend solutions using cutting-edge technologies. Designed a robust dashboard using Next.js 14 with server components, taking full advantage of this versions capabilities for a smooth and agile user experience.',
+      url: 'https://dashboard-8liz9zkef-nicolas355.vercel.app/dashboard',
+      github: '',
+      image: '/projects/dashboard_cap.png',
+      tech: ['Next 14', 'Css Modules','MongoDB Atlas','Recharts'],
+      id: 'dashboard',
+    },
+
+
     {
       name: 'Project with Remix and Strapi Blog and Ecommerce',
       description:
@@ -95,6 +108,9 @@ export const config = {
       tech: ['Javascript', 'Boostrap','LocalStorage'],
       id: 'api',
     },
-   
+
+    
+    
+    
   ],
 };
