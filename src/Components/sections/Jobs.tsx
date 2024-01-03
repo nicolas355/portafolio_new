@@ -1,6 +1,5 @@
 "use client";
 import { Element } from "react-scroll";
-
 import { config } from "@/config";
 
 import SectionTitle from "../SectionTitle";
@@ -23,6 +22,7 @@ export default function Jobs() {
                     <p className="text-gray-500">No-Country</p>
                   </div>
                 </Reveal>
+
                 <Reveal>
                   <p className="text-gray-500 hidden md:flex">
                     Nov. 2023 - Present
@@ -42,6 +42,28 @@ export default function Jobs() {
                     Typescript, React, Redux in a collaborative environment
                     Software development fast and fluid
                   </p>
+                </Reveal>
+
+                <Reveal>
+                
+                  <h2 className="text-2xl uppercase text-blue-400 font-bold"> Pet Notes</h2>
+                  <p>
+                    At PET NOTES, we have created an intuitive platform to
+                    manage vital pet information. Our tool makes it easy to
+                    record detailed names, breeds, colors and key dates,
+                    simplifying the care of your beloved companions. During this
+                    project, we have honed our TypeScript skills and leveraged
+                    the capabilities of Next.js 13 for a robust and efficient
+                    frontend. The integration of Tailwind CSS has allowed us to
+                    design a friendlier and more personalized user experience.
+                    Our main achievement has been the creation of a simple and
+                    effective tool for pet management.
+                  </p>
+                  <video controls className="py-8" height="360" width="640">
+                    <source src="/projects/noCountry.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                  </video>
+
                 </Reveal>
               </div>
             </div>
