@@ -79,6 +79,18 @@ export const config = {
 
 
     {
+      name: 'Rock paper scissors ' ,
+      description:
+        'This project is an implementation of the classic "Rock, Paper, Scissors" game developed using React, React Router and CSS. The app allows users to play against the machine, offering an interactive and fun experience.',
+      url: 'https://juego-piedra-papel-o-tijeras.vercel.app/',
+      github: '',
+      image: '/projects/game.png',
+      tech: ['React Router', 'Vite','CSS','Context'],
+      id: 'api',
+    },
+
+
+    {
       name: 'Project with Remix and Strapi Blog and Ecommerce',
       description:
         'This project combines the capabilities of Remix and Strapi to offer a versatile website that offers both informative blog content and the ability to purchase products online, giving users a complete and engaging experience.',
@@ -109,6 +121,10 @@ export const config = {
       id: 'api',
     },
 
+
+  
+
+    
     
     
     
