@@ -147,7 +147,7 @@ export default function Jobs() {
                     convert your designs.
                   </p>
                       
-                      <Image width={500} height={500} src={'/projects/Quarks.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
+                      <Image width={500} height={500} src={'/projects/Quarks.gif'}  className="w-[800px] object-cover object-center   h-[400px] rounded-lg mt-3"
                   
                     alt="imagen">
 
@@ -178,7 +178,7 @@ export default function Jobs() {
                     - Implementation of javascript libraries such as ScrollReveal.js
                   </p>
 
-                  <Image width={500} height={500} src={'/projects/high.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
+                  <Image width={500} height={500} src={'/projects/high.gif'}  className="w-[800px] object-cover object-center  h-[400px] rounded-lg mt-3"
                   
                   alt="imagen_high">
 
@@ -207,7 +207,7 @@ export default function Jobs() {
                     - Employment Opportunities: The platform offers opportunities for those looking to join the company's team. Benefits include on-the-spot commissions.
                   </p>
 
-                  <Image width={500} height={500} src={'/projects/MuebleriaAmoblarte.gif'}  className="w-[800px] h-[400px] rounded-lg  mt-3"
+                  <Image width={500} height={500} src={'/projects/MuebleriaAmoblarte.gif'}  className="w-[800px] h-[400px] object-cover object-center  rounded-lg  mt-3"
                   
                   alt="imagen_high">
 
@@ -281,14 +281,14 @@ export default function Jobs() {
 
                   <p>- On the second site implement Next js,Tailwind.</p>
 
-                  <Image width={500} height={500} src={'/projects/productoSion.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
+                  <Image width={500} height={500} src={'/projects/productoSion.gif'}  className="w-[800px]  h-[400px] object-cover object-center  rounded-lg mt-3"
                   
                   alt="imagen_product_sion">
 
                     </Image>
 
                     
-                    <Image width={500} height={500} src={'/projects/autoescuelasion.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
+                    <Image width={500} height={500} src={'/projects/autoescuelasion.gif'}  className="w-[800px]  h-[400px] object-cover object-center  rounded-lg mt-3"
                   
                   alt="imagen_product_sion">
 
