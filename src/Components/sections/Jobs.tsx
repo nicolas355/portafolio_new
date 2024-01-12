@@ -184,6 +184,8 @@ export default function Jobs() {
                   />
                 </Reveal>
 
+
+{/*
                 <Reveal>
                   <h2 className="text-2xl uppercase text-yellow-500 font-bold">
                     {" "}
@@ -209,7 +211,7 @@ export default function Jobs() {
                   />
                 </Reveal>
 
-
+                    */}
            
 
                 
