@@ -45,25 +45,42 @@ export default function Jobs() {
                 </Reveal>
 
                 <Reveal>
-                
-                  <h2 className="text-2xl uppercase text-blue-400 font-bold"> Pet Notes</h2>
+                  <h2 className="text-2xl uppercase text-blue-400 font-bold">
+                    {" "}
+                    Pet Notes
+                  </h2>
                   <p>
-                    At PET NOTES, we have created an intuitive platform to
-                    manage vital pet information. Our tool makes it easy to
-                    record detailed names, breeds, colors and key dates,
-                    simplifying the care of your beloved companions. During this
-                    project, we have honed our TypeScript skills and leveraged
-                    the capabilities of Next.js 13 for a robust and efficient
-                    frontend. The integration of Tailwind CSS has allowed us to
-                    design a friendlier and more personalized user experience.
-                    Our main achievement has been the creation of a simple and
-                    effective tool for pet management.
+                    PET NOTES: The application focuses on the comprehensive
+                    management of information about pets, offering
+                    functionalities such as detailed data logging, a calendar
+                    for important tasks and events, as well as the ability to
+                    manage and visualize pending tasks effectively, my
+                    responsibilities were:
+                  </p>
+                  <p className="mt-2">
+                    - Use of TypeScript to ensure security in the code.
+                  </p>
+                  <p>- Integration of the form with the databases</p>
+                  <p>
+                    - State management via Context API for a seamless
+                    experience.
+                  </p>
+                  <p>- Structure and styles with CSS Modules and Tailwind </p>
+                  <p>
+                    - Active use of GitHub, Git and Jira for daily management
+                    and monitoring.
+                  </p>
+                  <p>
+                    - Daily meetings with the team leader to align objectives.
+                  </p>
+                  <p>
+                    - Use of agile methodologies for efficient and collaborative
+                    development.
                   </p>
                   <video controls className="py-8" height="360" width="640">
                     <source src="/projects/noCountry.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
-
                 </Reveal>
               </div>
             </div>
@@ -103,6 +120,99 @@ export default function Jobs() {
                     with clients, ensuring adherence to agreed-upon timelines.
                   </p>
                 </Reveal>
+
+                <Reveal>
+                  <h2 className="text-2xl uppercase text-[#71c4ef] font-bold">
+                    {" "}
+                    Quarks Consulting
+                  </h2>
+                  <p>
+                    At Quarks Consulting, leader in comprehensive outsourcing
+                    services for the management of salaries and payrolls, I
+                    contributed to the creation of an innovative platform that
+                    facilitates communication and also transmits and values the
+                    services of the company. My key responsibilities included:
+                  </p>
+                  <p className="mt-2">
+                    - Interactive Features: implement forms of communication
+                    effective, with functional contact forms with PHP
+                  </p>
+                  <p>
+                    - Implementation of functionalities and animations with
+                    Javascript
+                  </p>
+                  <p>
+                    - Collaboration with UX/UI Designer: Work as a team with a
+                    designer specialized in creating interfaces in Figma to
+                    convert your designs.
+                  </p>
+
+                  <img
+                    className="mt-3"
+                    src="/projects/Quarks.gif"
+                    alt="imagen"
+                  />
+                </Reveal>
+
+                <Reveal>
+                  <h2 className="text-2xl uppercase text-[#004D98] font-bold ">
+                    {" "}
+               High Web Design
+                  </h2>
+                  <p>
+                  This project marks my first step into the world of web design, focusing on creating a stunning landing page for HIGH WEB DESIGN with a focus on customer acquisition. , an initiative that represents my initial foray into web design with the clear objective of offering effective solutions to elevate businesses to the highest level in the digital field. My responsibilities were:
+                  </p>
+                  <p className="mt-2">
+                    - Effective collaboration with the development team to ensure proper implementation of the design.
+                  </p>
+                  <p>
+                    - Interactive Elements: Implementation of interactive elements, such as contact forms, functionalities with javascript and php
+                  </p>
+                  <p>
+                    - Creation of original designs, responsive sites and SEO optimization.
+​
+                  </p>
+
+                  <p>
+                    - Implementation of javascript libraries such as ScrollReveal.js
+                  </p>
+
+                  <img
+                    className="mt-3"
+                    src="/projects/high.gif"
+                    alt="imagen"
+                  />
+                </Reveal>
+
+                <Reveal>
+                  <h2 className="text-2xl uppercase text-yellow-500 font-bold">
+                    {" "}
+                   Muebleria Amoblarte
+                  </h2>
+                  <p>
+                  Mueblería Amoblarte is a company dedicated to the design and marketing of furniture, specializing in the creation of elegant and functional spaces for the home. My responsibilities were:
+                  </p>
+                  <p className="mt-2">
+                    - Implementation of functionalities and animations with Javascript
+                  </p>
+                  <p>
+                    - Product Image Gallery
+                  </p>
+                  <p>
+                    - Employment Opportunities: The platform offers opportunities for those looking to join the company's team. Benefits include on-the-spot commissions.
+                  </p>
+
+                  <img
+                    className="mt-3"
+                    src="/projects/MuebleriaAmoblarte.gif"
+                    alt="imagen"
+                  />
+                </Reveal>
+
+
+           
+
+                
               </div>
             </div>
           </Reveal>
@@ -115,7 +225,7 @@ export default function Jobs() {
                 <Reveal>
                   <div>
                     <h3 className="font-bold text-xl uppercase">
-                      Administrative driving school{" "}
+                      Web developer | Administrative | Sales
                     </h3>
                     <p className="text-gray-500">AutoescuelaSion</p>
                   </div>
@@ -128,19 +238,56 @@ export default function Jobs() {
               </div>
               <div className="grid gap-4">
                 <Reveal>
+
+                <h2 className="text-2xl uppercase text-red-500 font-bold ">
+                    {" "}
+          AutoescuelaSion
+                  </h2>
                   <p>
-                    Optimization of allocation instructors for coverage total
-                    classes and reduction of cancellations, improving the
-                    student experience. Implementation of a system required
-                    attendance record, facilitating the identification and
-                    troubleshooting attendance. Leadership in surveys
-                    satisfaction to improve quality of the services offered.
-                    Collaboration in the management of online sales, increasing
-                    significantly sales to provide quick responses and develop a
-                    sales pitch cash. Content creation and management of design
-                    programs such as Illustrator, Photoshop and Figma. Manage
-                    website company, managing images, information, structure
+                    At AutoescuelaSion, an innovative door-to-door driving
+                    school platform door, I had a role in the administration of
+                    the website, improving its functionalities and expanding
+                    your online presence in addition to working closely as
+                    administrative for the company. My responsibilities They
+                    covered:
                   </p>
+                  <p className="mt-2">
+                    Develop and optimize the website using technologies such as
+                    React and Vite to improve user experience and loading speed.
+                  </p>
+                  <p>
+                    - Manage and update the website, implementing new
+                    functionalities and optimizing content to improve user
+                    experience.
+                  </p>
+                  <p>
+                    - Collaborate in the development of customer acquisition
+                    strategies, contributing to improving the services offered
+                    and customer satisfaction.
+                  </p>
+                  <p>
+                    - I implemented components and layouts using Bootstrap,
+                    improving the aesthetics and the functionality of the site.
+                  </p>
+                  <p>
+                    - Oversaw social media strategy, expanding online presence
+                    and effectively highlighting services
+                  </p>
+
+                  <p>- On the second site implement Next js,Tailwind.</p>
+
+                  <img
+                    className="mt-5"
+                    src="/projects/productoSion.gif"
+                    alt="imagen"
+                  />
+                  <img
+                    className="mt-5"
+                    src="/projects/autoescuelasion.gif"
+                    alt="imagen"
+                  />
+
+               
                 </Reveal>
               </div>
             </div>

@@ -66,7 +66,7 @@ export default function Navbar() {
         </Link>
         <a
           className="rounded-md border-blue-300 border-solid border-2 px-6 py-1 text-white-300 hover:bg-blue-300 hover:text-black"
-          href="https://drive.google.com/file/d/1LQk2NFI5NyUR4BUJFa-mnE2Use1XxiLu/view?usp=sharing"
+          href="https://drive.google.com/file/d/1WwH3ZRIbadeZ_rwgz02e3gnBTOkdD6Am/view?usp=sharing"
           target="_blank"
         >
           My resume
