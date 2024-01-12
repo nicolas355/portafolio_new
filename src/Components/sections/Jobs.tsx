@@ -77,7 +77,7 @@ export default function Jobs() {
                     - Use of agile methodologies for efficient and collaborative
                     development.
                   </p>
-                  <video controls className="py-8" height="360" width="640">
+                  <video controls className="py-8" height="360" width="800">
                     <source src="/projects/noCountry.webm" type="video/webm" />
                     Your browser does not support the video tag.
                   </video>
@@ -147,7 +147,7 @@ export default function Jobs() {
                     convert your designs.
                   </p>
                       
-                      <Image width={500} height={500} src={'/projects/Quarks.gif'}  className="w-full mt-3"
+                      <Image width={500} height={500} src={'/projects/Quarks.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
                   
                     alt="imagen">
 
@@ -178,7 +178,7 @@ export default function Jobs() {
                     - Implementation of javascript libraries such as ScrollReveal.js
                   </p>
 
-                  <Image width={500} height={500} src={'/projects/high.gif'}  className="w-full mt-3"
+                  <Image width={500} height={500} src={'/projects/high.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
                   
                   alt="imagen_high">
 
@@ -207,7 +207,7 @@ export default function Jobs() {
                     - Employment Opportunities: The platform offers opportunities for those looking to join the company's team. Benefits include on-the-spot commissions.
                   </p>
 
-                  <Image width={500} height={500} src={'/projects/MuebleriaAmoblarte.gif'}  className="w-full mt-3"
+                  <Image width={500} height={500} src={'/projects/MuebleriaAmoblarte.gif'}  className="w-[800px] h-[400px] rounded-lg  mt-3"
                   
                   alt="imagen_high">
 
@@ -281,14 +281,16 @@ export default function Jobs() {
 
                   <p>- On the second site implement Next js,Tailwind.</p>
 
-                  <Image width={500} height={500} src={'/projects/productoSion.gif'}  className="w-full mt-3"
+                  <Image width={500} height={500} src={'/projects/productoSion.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
                   
                   alt="imagen_product_sion">
 
                     </Image>
-                    <Image width={500} height={500} src={'/projects/autoescuelasion.gif'}  className="w-full object-cover object-center mt-3"
+
+                    
+                    <Image width={500} height={500} src={'/projects/autoescuelasion.gif'}  className="w-[800px]  h-[400px] rounded-lg mt-3"
                   
-                  alt="imagen_AutoescuelaSion">
+                  alt="imagen_product_sion">
 
                     </Image>
 
