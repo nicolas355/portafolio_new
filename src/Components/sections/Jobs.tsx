@@ -149,7 +149,7 @@ export default function Jobs() {
 
                   <img
                     className="mt-3"
-                    src="/projects/Quarks.gif"
+                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072319/yu41fu4lnqbzkd8bpxjt.gif"
                     alt="imagen"
                   />
                 </Reveal>
@@ -179,7 +179,7 @@ export default function Jobs() {
 
                   <img
                     className="mt-3"
-                    src="/projects/high.gif"
+                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072320/b3djuv468gjpvtgvvjiq.gif"
                     alt="imagen"
                   />
                 </Reveal>
@@ -278,12 +278,12 @@ export default function Jobs() {
 
                   <img
                     className="mt-5"
-                    src="/projects/productoSion.gif"
+                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072318/zwfklh0yd7bpfejkewsk.gif"
                     alt="imagen"
                   />
                   <img
                     className="mt-5"
-                    src="/projects/autoescuelasion.gif"
+                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072319/zrudxyd8iasb4b4klege.gif"
                     alt="imagen"
                   />
 
