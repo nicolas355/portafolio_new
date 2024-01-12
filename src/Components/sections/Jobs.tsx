@@ -1,7 +1,7 @@
 "use client";
 import { Element } from "react-scroll";
 import { config } from "@/config";
-
+import Image from "next/image";
 import SectionTitle from "../SectionTitle";
 import Reveal from "../Reveal";
 
@@ -146,12 +146,13 @@ export default function Jobs() {
                     designer specialized in creating interfaces in Figma to
                     convert your designs.
                   </p>
+                      
+                      <Image width={500} height={500} src={'/projects/Quarks.gif'}  className="w-full mt-3"
+                  
+                    alt="imagen">
 
-                  <img
-                    className="mt-3"
-                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072319/yu41fu4lnqbzkd8bpxjt.gif"
-                    alt="imagen"
-                  />
+                      </Image>
+                 
                 </Reveal>
 
                 <Reveal>
@@ -177,15 +178,17 @@ export default function Jobs() {
                     - Implementation of javascript libraries such as ScrollReveal.js
                   </p>
 
-                  <img
-                    className="mt-3"
-                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072320/b3djuv468gjpvtgvvjiq.gif"
-                    alt="imagen"
-                  />
+                  <Image width={500} height={500} src={'/projects/high.gif'}  className="w-full mt-3"
+                  
+                  alt="imagen_high">
+
+                    </Image>
+
+
                 </Reveal>
 
 
-{/*
+
                 <Reveal>
                   <h2 className="text-2xl uppercase text-yellow-500 font-bold">
                     {" "}
@@ -204,14 +207,14 @@ export default function Jobs() {
                     - Employment Opportunities: The platform offers opportunities for those looking to join the company's team. Benefits include on-the-spot commissions.
                   </p>
 
-                  <img
-                    className="mt-3"
-                    src="/projects/MuebleriaAmoblarte.gif"
-                    alt="imagen"
-                  />
+                  <Image width={500} height={500} src={'/projects/MuebleriaAmoblarte.gif'}  className="w-full mt-3"
+                  
+                  alt="imagen_high">
+
+                    </Image>
                 </Reveal>
 
-                    */}
+                    
            
 
                 
@@ -278,16 +281,16 @@ export default function Jobs() {
 
                   <p>- On the second site implement Next js,Tailwind.</p>
 
-                  <img
-                    className="mt-5"
-                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072318/zwfklh0yd7bpfejkewsk.gif"
-                    alt="imagen"
-                  />
-                  <img
-                    className="mt-5"
-                    src="https://res.cloudinary.com/dy7qlqell/image/upload/v1705072319/zrudxyd8iasb4b4klege.gif"
-                    alt="imagen"
-                  />
+                  <Image width={500} height={500} src={'/projects/productoSion.gif'}  className="w-full mt-3"
+                  
+                  alt="imagen_product_sion">
+
+                    </Image>
+                    <Image width={500} height={500} src={'/projects/autoescuelasion.gif'}  className="w-full object-cover object-center mt-3"
+                  
+                  alt="imagen_AutoescuelaSion">
+
+                    </Image>
 
                
                 </Reveal>
