@@ -45,7 +45,7 @@ export default function Jobs() {
                 </Reveal>
 
                 <Reveal>
-                  <h2 className="text-2xl line-clamp-3 mb-3 mt-3 uppercase text-blue-400 font-bold">
+                  <h2 className="text-2xl line-clamp-3 mb-3 mt-3 uppercase text-white font-bold">
                     {" "}
                     Pet Notes
                   </h2>
