@@ -6,8 +6,8 @@ import Reveal from '../Reveal';
 
 export default function About() {
   return (
-    <section>
-      <Element className="grid gap-10" name="about">
+    <section className=''>
+      <Element className="grid gap-10 " name="about">
         <SectionTitle title="About me" />
         <Reveal>
           <p className='leading-7'>

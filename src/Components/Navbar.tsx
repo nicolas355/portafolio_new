@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 export default function Navbar() {
   return (
-    <nav className="py-4 px-10 flex w-full items-center justify-between max-w-5xl fixed top-0 backdrop-blur-xl z-10">
+    <nav className="py-4 px-10 flex w-full  items-center justify-between max-w-5xl fixed top-0 backdrop-blur-xl z-10">
       <Link
         className="hover:text-slate-100 hover:cursor-pointer"
         duration={500}

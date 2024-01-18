@@ -12,21 +12,21 @@ export default function Jobs() {
         <SectionTitle title="Experience" />
         <div className="flex gap-8">
           <Reveal>
+            <div className="w-full flex justify-between">
+              <p className="text-gray-500">No-Country</p>
+              <p className="text-gray-500   hidden md:flex">
+                Nov. 2023 - Present
+              </p>
+            </div>
+
             <div className="grid gap-4">
-              <div className="flex justify-between">
+              <div className="flex justify-between items-center">
                 <Reveal>
                   <div>
-                    <h3 className="font-bold text-xl uppercase">
-                      FRONTEND DEVELOPER{" "}
+                    <h3 className="font-bold mt-2 text-3xl ">
+                      Frontend Developer{" "}
                     </h3>
-                    <p className="text-gray-500">No-Country</p>
                   </div>
-                </Reveal>
-
-                <Reveal>
-                  <p className="text-gray-500 hidden md:flex">
-                    Nov. 2023 - Present
-                  </p>
                 </Reveal>
               </div>
               <div className="grid gap-4">
@@ -45,11 +45,11 @@ export default function Jobs() {
                 </Reveal>
 
                 <Reveal>
-                  <h2 className="text-2xl uppercase text-blue-400 font-bold">
+                  <h2 className="text-2xl line-clamp-3 mb-3 mt-3 uppercase text-blue-400 font-bold">
                     {" "}
                     Pet Notes
                   </h2>
-                  <p>
+                  <p className=" mb-3 mt-3 ">
                     PET NOTES: The application focuses on the comprehensive
                     management of information about pets, offering
                     functionalities such as detailed data logging, a calendar
@@ -77,8 +77,12 @@ export default function Jobs() {
                     - Use of agile methodologies for efficient and collaborative
                     development.
                   </p>
-                  <video controls className="py-8" height="360" width="800">
-                    <source src="/projects/noCountry.webm" type="video/webm" />
+                  <video controls className="py-8" height="360">
+                    <source
+                      className="w-full"
+                      src="/projects/noCountry.webm"
+                      type="video/webm"
+                    />
                     Your browser does not support the video tag.
                   </video>
                 </Reveal>
@@ -93,10 +97,10 @@ export default function Jobs() {
               <div className="flex justify-between">
                 <Reveal>
                   <div>
-                    <h3 className="font-bold text-xl uppercase">
+                    <p className="text-gray-500">Freelance</p>
+                    <h3 className="font-bold text-3xl  mt-2  ">
                       Web Developer{" "}
                     </h3>
-                    <p className="text-gray-500">Freelance</p>
                   </div>
                 </Reveal>
                 <Reveal>
@@ -122,7 +126,7 @@ export default function Jobs() {
                 </Reveal>
 
                 <Reveal>
-                  <h2 className="text-2xl uppercase text-[#71c4ef] font-bold">
+                  <h2 className="text-2xl mb-2  text-white font-bold">
                     {" "}
                     Quarks Consulting
                   </h2>
@@ -146,78 +150,129 @@ export default function Jobs() {
                     designer specialized in creating interfaces in Figma to
                     convert your designs.
                   </p>
-                      
-                      <Image width={500} height={500} src={'/projects/Quarks.gif'}  className="w-[800px] object-cover object-center  sm:h-[400px] h-[250px] rounded-lg mt-3"
-                  
-                    alt="imagen">
 
-                      </Image>
-                 
+                  <Image
+                    width={500}
+                    height={500}
+                    src={"/projects/Quarks.gif"}
+                    className="w-full object-cover object-center my-8  sm:h-[400px] h-[250px] rounded-lg "
+                    alt="imagen"
+                  ></Image>
+                </Reveal>
+
+             
+    
+     
+
+                <Reveal>
+                  <h2 className="text-2xl mb-2  text-white font-bold ">
+                    {" "}
+                    High Web Design
+                  </h2>
+                  <p>
+                    This project marks my first step into the world of web
+                    design, focusing on creating a stunning landing page for
+                    High Web Design with a focus on customer acquisition. , an
+                    initiative that represents my initial foray into web design
+                    with the clear objective of offering effective solutions to
+                    elevate businesses to the highest level in the digital
+                    field. My responsibilities were:
+                  </p>
+                  <p className="mt-2">
+                    - Effective collaboration with the development team to
+                    ensure proper implementation of the design.
+                  </p>
+                  <p>
+                    - Interactive Elements: Implementation of interactive
+                    elements, such as contact forms, functionalities with
+                    javascript and php
+                  </p>
+                  <p>
+                    - Creation of original designs, responsive sites and SEO
+                    optimization. ​
+                  </p>
+
+                  <p>
+                    - Implementation of javascript libraries such as
+                    ScrollReveal.js
+                  </p>
+
+                  <Image
+                    width={500}
+                    height={500}
+                    src={"/projects/high.gif"}
+                    className="w-full my-8 object-cover object-center  sm:h-[400px] h-[250px] rounded-lg "
+                    alt="imagen_high"
+                  ></Image>
                 </Reveal>
 
                 <Reveal>
-                  <h2 className="text-2xl uppercase text-[#004D98] font-bold ">
+                  <h2 className="text-2xl mb-2  text-white font-bold">
                     {" "}
-               High Web Design
+                    Muebleria Amoblarte
                   </h2>
                   <p>
-                  This project marks my first step into the world of web design, focusing on creating a stunning landing page for HIGH WEB DESIGN with a focus on customer acquisition. , an initiative that represents my initial foray into web design with the clear objective of offering effective solutions to elevate businesses to the highest level in the digital field. My responsibilities were:
+                    Mueblería Amoblarte is a company dedicated to the design and
+                    marketing of furniture, specializing in the creation of
+                    elegant and functional spaces for the home. My
+                    responsibilities were:
                   </p>
                   <p className="mt-2">
-                    - Effective collaboration with the development team to ensure proper implementation of the design.
+                    - Implementation of functionalities and animations with
+                    Javascript
                   </p>
-                  <p>
-                    - Interactive Elements: Implementation of interactive elements, such as contact forms, functionalities with javascript and php
-                  </p>
-                  <p>
-                    - Creation of original designs, responsive sites and SEO optimization.
-​
-                  </p>
+                  <p>- Product Image Gallery</p>
+                  <p>- Employment Opportunities</p>
 
-                  <p>
-                    - Implementation of javascript libraries such as ScrollReveal.js
-                  </p>
-
-                  <Image width={500} height={500} src={'/projects/high.gif'}  className="w-[800px] object-cover object-center  sm:h-[400px] h-[250px] rounded-lg mt-3"
-                  
-                  alt="imagen_high">
-
-                    </Image>
-
-
+                  <Image
+                    width={500}
+                    height={500}
+                    src={"/projects/MuebleriaAmoblarte.gif"}
+                    className="w-full sm:h-[400px] h-[250px] object-cover object-center my-8  rounded-lg    "
+                    alt="imagen_high"
+                  ></Image>
                 </Reveal>
 
 
 
                 <Reveal>
-                  <h2 className="text-2xl uppercase text-yellow-500 font-bold">
+            <div className="grid gap-4">
+              <div className="grid gap-4">
+                <Reveal>
+                  <h2 className="text-2xl  text-white font-bold ">
                     {" "}
-                   Muebleria Amoblarte
+                    Herreria Altar
                   </h2>
                   <p>
-                  Mueblería Amoblarte is a company dedicated to the design and marketing of furniture, specializing in the creation of elegant and functional spaces for the home. My responsibilities were:
+                  Altar Constructions and Blacksmithing is a workshop specialized in blacksmithing and constructions, my responsibilities were:
                   </p>
                   <p className="mt-2">
-                    - Implementation of functionalities and animations with Javascript
+                    - Transformation of graphic designs provided in PSD or XD files to HTML, CSS and JavaScript code.
                   </p>
                   <p>
-                    - Product Image Gallery
+                    - Aplicación de animaciones y efectos visuales para hacer la página más atractiva.
                   </p>
                   <p>
-                    - Employment Opportunities: The platform offers opportunities for those looking to join the company's team. Benefits include on-the-spot commissions.
+                    - Inclusión de enlaces e iconos para conectarse con las redes sociales de la herrería.
                   </p>
+                  <p>
+                    - Used mixins and SASS functions to encapsulate reusable styles and simplify style management
+                  </p>
+               
 
-                  <Image width={500} height={500} src={'/projects/MuebleriaAmoblarte.gif'}  className="w-[800px] sm:h-[400px] h-[250px] object-cover object-center  rounded-lg  mt-3"
-                  
-                  alt="imagen_high">
+          
 
-                    </Image>
+                  <Image
+                    width={500}
+                    height={500}
+                    src={"/projects/herreria.gif"}
+                    className="w-full my-8 sm:h-[400px] h-[250px] object-cover object-center  rounded-lg "
+                    alt="imagen_product_sion"
+                  ></Image>
                 </Reveal>
-
-                    
-           
-
-                
+              </div>
+            </div>
+          </Reveal>
               </div>
             </div>
           </Reveal>
@@ -228,11 +283,11 @@ export default function Jobs() {
             <div className="grid gap-4">
               <div className="flex justify-between">
                 <Reveal>
-                  <div>
-                    <h3 className="font-bold text-xl uppercase">
+                  <div className="">
+                    <p className="text-gray-500 mb-1">AutoescuelaSion</p>
+                    <h3 className="font-bold text-3xl  ">
                       Web developer | Administrative | Sales
                     </h3>
-                    <p className="text-gray-500">AutoescuelaSion</p>
                   </div>
                 </Reveal>
                 <Reveal>
@@ -243,10 +298,9 @@ export default function Jobs() {
               </div>
               <div className="grid gap-4">
                 <Reveal>
-
-                <h2 className="text-2xl uppercase text-red-500 font-bold ">
+                  <h2 className="text-2xl  text-white font-bold ">
                     {" "}
-          AutoescuelaSion
+                    AutoescuelaSion
                   </h2>
                   <p>
                     At AutoescuelaSion, an innovative door-to-door driving
@@ -257,8 +311,9 @@ export default function Jobs() {
                     covered:
                   </p>
                   <p className="mt-2">
-                    Develop and optimize the website using technologies such as
-                    React and Vite to improve user experience and loading speed.
+                    - Develop and optimize the website using technologies such
+                    as React and Vite to improve user experience and loading
+                    speed.
                   </p>
                   <p>
                     - Manage and update the website, implementing new
@@ -281,25 +336,28 @@ export default function Jobs() {
 
                   <p>- On the second site implement Next js,Tailwind.</p>
 
-                  <Image width={500} height={500} src={'/projects/productoSion.gif'}  className="w-[800px] sm:h-[400px] h-[250px] object-cover object-center  rounded-lg mt-3"
-                  
-                  alt="imagen_product_sion">
+                  <Image
+                    width={500}
+                    height={500}
+                    src={"/projects/productoSion.gif"}
+                    className="w-full my-8 sm:h-[400px] h-[250px] object-cover object-center  rounded-lg "
+                    alt="imagen_product_sion"
+                  ></Image>
 
-                    </Image>
-
-                    
-                    <Image width={500}  height={500} src={'/projects/autoescuelasion.gif'}  className=" w-[800px]   sm:h-[400px] h-[250px]  object-cover object-center  rounded-lg mt-3"
-                  
-                  alt="imagen_product_sion">
-
-                    </Image>
-
-               
+                  <Image
+                    width={500}
+                    height={500}
+                    src={"/projects/autoescuelasion.gif"}
+                    className="w-full   sm:h-[400px] h-[250px]  object-cover object-center  rounded-lg my-0"
+                    alt="imagen_product_sion"
+                  ></Image>
                 </Reveal>
               </div>
             </div>
           </Reveal>
         </div>
+
+     
       </Element>
     </section>
   );

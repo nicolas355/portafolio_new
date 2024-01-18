@@ -7,7 +7,7 @@ import Reveal from '../Reveal';
 export default function Contact() {
   return (
     <section>
-      <Element className="flex flex-col items-center gap-10" name="contact">
+      <Element className="flex flex-col  gap-10" name="contact">
         <Reveal>
           <h2 className="text-5xl font-bold whitespace-nowrap">Contact</h2>
         </Reveal>

@@ -9,23 +9,23 @@ export default function Hero() {
       <div className="flex flex-col gap-4 h-full justify-center items-center md:items-start">
         <div className="grid text-center place-items-center md:place-items-start md:text-start">
           <Reveal>
-            <h2 className="font-extrabold flex text-3xl">Hi, my name is</h2>
+            <h2 className="font-bold flex text-3xl xl:text-4xl">Hi, my name is</h2>
           </Reveal>
           <Reveal>
-            <h1 className="font-extrabold text-7xl">Nicolas Gonzalez</h1>
+            <h1 className="font-extrabold text-6xl xl:text-7xl">Nicolas Gonzalez</h1>
           </Reveal>
         </div>
         <div className="grid text-center place-items-center md:place-items-start md:text-start">
           <Reveal>
-            <h2 className="text-3xl">
+            <h2 className="text-3xl xl:text-4xl">
               I am{' '}
-              <span className="text-blue-300 font-extrabold whitespace-nowrap">
+              <span className="text-blue-300  font-extrabold xl:text-4xl text-4xl whitespace-nowrap">
                 Frontend Developer
               </span>
             </h2>
           </Reveal>
           <Reveal>
-            <h2 className="text-xl">I build things for the web</h2>
+            <h2 className=" xl:text-2xl text-xl">I build things for the web</h2>
           </Reveal>
         </div>
         <Reveal>

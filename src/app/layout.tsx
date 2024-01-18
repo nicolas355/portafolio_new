@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="max-w-5xl flex flex-col mx-auto items-center relative">
+        <div className="max-w-5xl  flex flex-col mx-auto items-center relative">
           <Navbar />
           {children}
           <ScrollTopButton limit={400} />
