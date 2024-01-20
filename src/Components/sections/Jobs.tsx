@@ -250,10 +250,10 @@ export default function Jobs() {
                     - Transformation of graphic designs provided in PSD or XD files to HTML, CSS and JavaScript code.
                   </p>
                   <p>
-                    - Aplicación de animaciones y efectos visuales para hacer la página más atractiva.
+                    - Application of animations and visual effects to make the page more attractive.
                   </p>
                   <p>
-                    - Inclusión de enlaces e iconos para conectarse con las redes sociales de la herrería.
+                    - Inclusion of links and icons to connect with the blacksmith's social networks.
                   </p>
                   <p>
                     - Used mixins and SASS functions to encapsulate reusable styles and simplify style management
