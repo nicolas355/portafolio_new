@@ -77,17 +77,19 @@ export const config = {
       id: 'dashboard',
     },
 
-
     {
-      name: 'Rock paper scissors ' ,
+      name: 'Happypup      ',
       description:
-        'This project is an implementation of the classic "Rock, Paper, Scissors" game developed using React, React Router and CSS. The app allows users to play against the machine, offering an interactive and fun experience.',
-      url: 'https://juego-piedra-papel-o-tijeras.vercel.app/',
+        'HappyPup is an e-commerce project specialized in pet products, developed using React and styled with Tailwind CSS. This website offers a modern and efficient shopping experience.',
+      url: 'https://happypup.vercel.app/',
       github: '',
-      image: '/projects/game.png',
-      tech: ['React Router', 'Vite','CSS','Context'],
-      id: 'api',
+      image: 'https://res.cloudinary.com/dy7qlqell/image/upload/v1727572295/scrnli_28_9_2024_10-08-43_kouh2y.png',
+      tech: ['Tailwind', 'React','Typescript', 'Sweet Alert','Swiper'],
+      id: 'threads',
     },
+
+
+  
 
 
     {
@@ -100,16 +102,7 @@ export const config = {
       tech: ['Remix', 'Tailwind CSS', 'strapi','postgresql'],
       id: 'anon-question',
     },
-    {
-      name: 'Rick and Morty      ',
-      description:
-        'I consumed the Rick and Morty API to get character, episode and location data, using React with useState and useEffect in my project',
-      url: 'https://rickandmortysiteapi.netlify.app/',
-      github: '',
-      image: '/projects/imagen_rick.png',
-      tech: ['Style Components', 'React', 'Material UI'],
-      id: 'threads',
-    },
+    
     {
       name: 'Recipes API - Javascript -' ,
       description:
@@ -122,7 +115,16 @@ export const config = {
     },
 
 
-  
+    {
+      name: 'Rock paper scissors ' ,
+      description:
+        'This project is an implementation of the classic "Rock, Paper, Scissors" game developed using React, React Router and CSS. The app allows users to play against the machine, offering an interactive and fun experience.',
+      url: 'https://juego-piedra-papel-o-tijeras.vercel.app/',
+      github: '',
+      image: '/projects/game.png',
+      tech: ['React Router', 'Vite','CSS','Context'],
+      id: 'api',
+    },
 
     
     
