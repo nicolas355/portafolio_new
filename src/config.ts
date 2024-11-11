@@ -55,16 +55,23 @@ export const config = {
     primary: '#84b6ff',
   },
   projects: [
+
+
+    { name: 'TastyGo', description: 'TastyGo is a food ordering platform built with Next.js 15 and TypeScript for fast, efficient orders. It uses Prisma ORM to send orders to a kitchen board in real-time, enabling easy management. Tailwind CSS and ShadCN provide a responsive, stylish interface, while Lucide Icons enhance navigation. The REST API ensures seamless communication between users and the kitchen board.', url: 'https://food-app-llcc.vercel.app/', github: '', image: '/projects/tastygo.png', tech: ['React', 'Next.js 15', 'Postgresql', 'TypeScript', 'Prisma ORM', 'Tailwind CSS', 'ShadCN', 'Lucide Icons'], id: 'tastygo', },
+
+
+
     {
-      name: 'Eccomerce',
+      name: 'Happypup      ',
       description:
-        'The store is based on Next.js to create a fast and fluid loading experience, and Tailwind CSS for an elegant and responsive design. State management is implemented using Context API and Props. Users can filter products by category to easily find what they are looking for. The shopping cart is comprehensive and allows users to add, delete and view their cart in real time.',
-      url: 'https://ecomerce-next-js-ten.vercel.app/',
+        'HappyPup is an e-commerce project specialized in pet products, developed using React and styled with Tailwind CSS. This website offers a modern and efficient shopping experience.',
+      url: 'https://happypup.vercel.app/',
       github: '',
-      image: '/projects/eccomerce-nextjs.png',
-      tech: ['Next 13', 'Tailwind', 'Context','Vite'],
-      id: 'chat',
+      image: 'https://res.cloudinary.com/dy7qlqell/image/upload/v1727572295/scrnli_28_9_2024_10-08-43_kouh2y.png',
+      tech: ['Tailwind', 'React','Typescript', 'Sweet Alert','Swiper'],
+      id: 'threads',
     },
+ 
 
     {
       name: 'Dashboard Full Stack' ,
@@ -77,32 +84,21 @@ export const config = {
       id: 'dashboard',
     },
 
-    {
-      name: 'Happypup      ',
-      description:
-        'HappyPup is an e-commerce project specialized in pet products, developed using React and styled with Tailwind CSS. This website offers a modern and efficient shopping experience.',
-      url: 'https://happypup.vercel.app/',
-      github: '',
-      image: 'https://res.cloudinary.com/dy7qlqell/image/upload/v1727572295/scrnli_28_9_2024_10-08-43_kouh2y.png',
-      tech: ['Tailwind', 'React','Typescript', 'Sweet Alert','Swiper'],
-      id: 'threads',
-    },
-
-
-  
-
-
-    {
-      name: 'Project with Remix and Strapi Blog and Ecommerce',
-      description:
-        'This project combines the capabilities of Remix and Strapi to offer a versatile website that offers both informative blog content and the ability to purchase products online, giving users a complete and engaging experience.',
-      url: 'https://www.youtube.com/watch?v=nl2xVCPgMdU&feature=youtu.be',
-      github: '',
-      image: '/projects/imagen_guitarra.png',
-      tech: ['Remix', 'Tailwind CSS', 'strapi','postgresql'],
-      id: 'anon-question',
-    },
     
+
+
+    {
+      name: 'Eccomerce',
+      description:
+        'The store is based on Next.js to create a fast and fluid loading experience, and Tailwind CSS for an elegant and responsive design. State management is implemented using Context API and Props. Users can filter products by category to easily find what they are looking for. The shopping cart is comprehensive and allows users to add, delete and view their cart in real time.',
+      url: 'https://ecomerce-next-js-ten.vercel.app/',
+      github: '',
+      image: '/projects/eccomerce-nextjs.png',
+      tech: ['Next 13', 'Tailwind', 'Context','Vite'],
+      id: 'chat',
+    },
+
+
     {
       name: 'Recipes API - Javascript -' ,
       description:
@@ -115,17 +111,7 @@ export const config = {
     },
 
 
-    {
-      name: 'Rock paper scissors ' ,
-      description:
-        'This project is an implementation of the classic "Rock, Paper, Scissors" game developed using React, React Router and CSS. The app allows users to play against the machine, offering an interactive and fun experience.',
-      url: 'https://juego-piedra-papel-o-tijeras.vercel.app/',
-      github: '',
-      image: '/projects/game.png',
-      tech: ['React Router', 'Vite','CSS','Context'],
-      id: 'api',
-    },
-
+   
     
     
     
