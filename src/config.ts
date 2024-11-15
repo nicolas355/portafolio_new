@@ -57,7 +57,7 @@ export const config = {
   projects: [
 
 
-    { name: 'TastyGo', description: 'TastyGo is a food ordering platform built with Next.js 15 and TypeScript for fast, efficient orders. It uses Prisma ORM to send orders to a kitchen board in real-time, enabling easy management. Tailwind CSS and ShadCN provide a responsive, stylish interface, while Lucide Icons enhance navigation. The REST API ensures seamless communication between users and the kitchen board.', url: 'https://food-app-llcc.vercel.app/', github: '', image: '/projects/tastygo.png', tech: ['React', 'Next.js 15', 'Postgresql', 'TypeScript', 'Prisma ORM', 'Tailwind CSS', 'ShadCN', 'Lucide Icons'], id: 'tastygo', },
+    { name: 'TastyGo', description: 'TastyGo is a food ordering platform built with Next.js 15 and TypeScript for fast, efficient orders. It uses Prisma ORM to send orders to a kitchen board in real-time, enabling easy management. Tailwind CSS and ShadCN provide a responsive, stylish interface, while Lucide Icons enhance navigation. The REST API ensures seamless communication between users and the kitchen board.', url: 'https://food-app-llcc.vercel.app/', github: '', image: '/projects/tastygo.png', tech: ['React', 'Next.js 15', 'Postgresql', 'TypeScript', 'Prisma ORM', 'Tailwind CSS', 'ShadCN', 'Lucide Icons','Context'], id: 'tastygo', },
 
 
 
@@ -73,6 +73,18 @@ export const config = {
     },
  
 
+    
+    {
+      name: 'Clon CrunchyRoll' ,
+      description:
+        'I developed a Crunchyroll clone web application, focusing on providing a fluid user experience for viewing multimedia content.',
+      url: 'https://clon-crunchy.vercel.app/',
+      github: '',
+      image: '/projects/clon_Crunchy.png',
+      tech: ['Next 15', 'Tailwind','Typescript','Shadcn'],
+      id: 'threads',
+    },
+
     {
       name: 'Dashboard Full Stack' ,
       description:
@@ -80,7 +92,7 @@ export const config = {
       url: 'https://dashboard-8liz9zkef-nicolas355.vercel.app/dashboard',
       github: '',
       image: '/projects/dashboard_cap.png',
-      tech: ['Next 14', 'Css Modules','Node js','MongoDB Atlas','Recharts'],
+      tech: ['Next 14', 'Css Modules','Node js','MongoDB Atlas', 'Server Actions' ,'Recharts'],
       id: 'dashboard',
     },
 
@@ -99,6 +111,7 @@ export const config = {
     },
 
 
+
     {
       name: 'Recipes API - Javascript -' ,
       description:
@@ -109,8 +122,7 @@ export const config = {
       tech: ['Javascript', 'Boostrap','LocalStorage'],
       id: 'api',
     },
-
-
+  
    
     
     
