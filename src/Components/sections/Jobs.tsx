@@ -1,364 +1,146 @@
-"use client";
-import { Element } from "react-scroll";
-import { config } from "@/config";
-import Image from "next/image";
-import SectionTitle from "../SectionTitle";
-import Reveal from "../Reveal";
+"use client"
+import { Element } from "react-scroll"
+import SectionTitle from "../SectionTitle"
+import ExperienceCard from "../ExperienceCard"
 
 export default function Jobs() {
   return (
     <section>
-      <Element className="grid gap-10 pt-10" name="jobs">
+      <Element className="grid gap-10" name="jobs">
         <SectionTitle title="Experience" />
-        <div className="flex gap-8">
-          <Reveal>
-            <div className="w-full flex justify-between">
-              <p className="text-gray-500">No-Country</p>
-              <p className="text-gray-500   hidden md:flex">
-                Nov. 2023 - Present
-              </p>
-            </div>
 
-            <div className="grid gap-4">
-              <div className="flex justify-between items-center">
-                <Reveal>
-                  <div>
-                    <h3 className="font-bold mt-2 text-3xl ">
-                      Frontend Developer{" "}
-                    </h3>
-                  </div>
-                </Reveal>
-              </div>
-              <div className="grid gap-4">
-                <Reveal>
-                  <p>
-                    Team collaboration multidisciplinary to solve real
-                    challenges using front-end technologies. Contribute to the
-                    definition of development processes, architectures and
-                    methodologies Active participation in the problem solving
-                    and solution creation innovative. Use of agile methodologies
-                    to efficient development and collaborative. Work with tools
-                    like Git, Jira and current technologies like Nexts js,
-                    Typescript, React, Redux in a collaborative environment
-                    Software development fast and fluid
-                  </p>
-                </Reveal>
+        <ExperienceCard
+          company="YopLabs"
+          role="Frontend Developer"
+          date="dic. 2024 - may. 2025"
+          description="I participated in the development of Labbi, a B2B web platform that connects pharmacies with laboratories and drugstores. I was responsible for the layout of the homepage and the login area, working on both the frontend and some backend tasks for product integration."
+          projects={[
+            {
+              title: "Labbi",
+              description: "",
+              responsibilities: [
+                "Development and layout of the Labbi website (https://www.labbi.com.ar/) by Industrias Bagó using React with styles implemented using SASS and Material UI components, ensuring a responsive and modern interface.",
+                "Implementation and customization of reusable MaterialUI components, adapting them to the design guidelines provided by the team.",
+                "Management of the application's global state using Redux, facilitating communication between components and improving project scalability.",
+                "Performance optimization and bug fixes.",
+              ],
+              video: "/projects/labbi.gif",
+            },
+          ]}
+        />
 
-                <Reveal>
-                  <h2 className="text-2xl line-clamp-3 mb-3 mt-3 uppercase text-white font-bold">
-                    {" "}
-                    Pet Notes
-                  </h2>
-                  <p className=" mb-3 mt-3 ">
-                    PET NOTES: The application focuses on the comprehensive
-                    management of information about pets, offering
-                    functionalities such as detailed data logging, a calendar
-                    for important tasks and events, as well as the ability to
-                    manage and visualize pending tasks effectively, my
-                    responsibilities were:
-                  </p>
-                  <p className="mt-2">
-                    - Use of TypeScript to ensure security in the code.
-                  </p>
-                  <p>- Integration of the form with the databases</p>
-                  <p>
-                    - State management via Context API for a seamless
-                    experience.
-                  </p>
-                  <p>- Structure and styles with CSS Modules and Tailwind </p>
-                  <p>
-                    - Active use of GitHub, Git and Jira for daily management
-                    and monitoring.
-                  </p>
-                  <p>
-                    - Daily meetings with the team leader to align objectives.
-                  </p>
-                  <p>
-                    - Use of agile methodologies for efficient and collaborative
-                    development.
-                  </p>
-                  <video controls className="py-8" height="360">
-                    <source
-                      className="w-full"
-                      src="/projects/noCountry.webm"
-                      type="video/webm"
-                    />
-                    Your browser does not support the video tag.
-                  </video>
-                </Reveal>
-              </div>
-            </div>
-          </Reveal>
-        </div>
+        <ExperienceCard
+          company="No-Country"
+          role="Frontend Developer"
+          date="Nov. 2023 - abr. 2024"
+          description="Team collaboration multidisciplinary to solve real challenges using front-end technologies. Contribute to the definition of development processes, architectures and methodologies. Active participation in problem solving and innovative solution creation. Use of agile methodologies for efficient development and collaboration. Work with tools like Git, Jira and technologies like Next.js, Typescript, React, Redux in a collaborative, fast and fluid software development environment."
+          projects={[
+            {
+              title: "Pet Notes",
+              description:
+                "The application focuses on comprehensive management of information about pets, offering functionalities such as detailed data logging, a calendar for important tasks and events, and managing and visualizing pending tasks effectively. My responsibilities were:",
+              responsibilities: [
+                "Use of TypeScript to ensure security in the code.",
+                "Integration of the form with the databases.",
+                "State management via Context API for a seamless experience.",
+                "Structure and styles with CSS Modules and Tailwind.",
+                "Active use of GitHub, Git and Jira for daily management and monitoring.",
+                "Daily meetings with the team leader to align objectives.",
+                "Use of agile methodologies for efficient and collaborative development.",
+              ],
+              video: "/projects/noCountry.webm",
+            },
+          ]}
+        />
 
-        <div className="flex gap-8">
-          <Reveal>
-            <div className="grid gap-4">
-              <div className="flex justify-between">
-                <Reveal>
-                  <div>
-                    <p className="text-gray-500">Freelance</p>
-                    <h3 className="font-bold text-3xl  mt-2  ">
-                      Web Developer{" "}
-                    </h3>
-                  </div>
-                </Reveal>
-                <Reveal>
-                  <p className="text-gray-500 hidden md:flex">
-                    Dic. 2021 - Nov 2023
-                  </p>
-                </Reveal>
-              </div>
-              <div className="grid gap-4">
-                <Reveal>
-                  <p>
-                    Proactively identify business opportunities and
-                    collaborations by establishing strong client relationships.
-                    Requirement Definition: Collaborate closely with clients to
-                    comprehend their needs and objectives effectively. Solution
-                    Development: Harness technical skills and expertise in
-                    web/frontend development (such as React, CSS, HTML,
-                    Wordpress, etc.) to craft tailored digital solutions.
-                    Project Management: Accountable for project planning,
-                    monitoring, and delivery. Maintain transparent communication
-                    with clients, ensuring adherence to agreed-upon timelines.
-                  </p>
-                </Reveal>
+        <ExperienceCard
+          company="Freelance"
+          role="Web Developer"
+          date="Dec. 2021 - Nov 2023"
+          description="I actively participated in identifying business opportunities and potential collaborations, building strong and lasting relationships with clients.
+I was involved in defining requirements, working closely with each client to fully understand their needs, objectives, and challenges.
+Based on this analysis, I developed customized digital solutions, leveraging my knowledge of web and front-end development (React, HTML, CSS, WordPress, among other technologies).
+I was also responsible for comprehensive project management: I planned, supervised, and ensured timely delivery, maintaining constant and transparent communication with clients throughout the process."
+          projects={[
+            {
+              title: "Quarks Consulting",
+              description:
+                "At Quarks Consulting, a leader in comprehensive outsourcing services for salaries and payroll management, I contributed to creating an innovative platform that facilitates communication and showcases company services. Key responsibilities included:",
+              responsibilities: [
+                "Implemented effective communication features, including functional contact forms with PHP.",
+                "Implemented functionalities and animations with JavaScript.",
+                "Collaborated with UX/UI Designer to convert Figma designs.",
+              ],
+              media: ["/projects/Quarks.gif"],
+            },
+            {
+              title: "High Web Design",
+              description:
+                "This project marks my first step into web design, focusing on creating a stunning landing page for High Web Design to acquire customers. Responsibilities included:",
+              responsibilities: [
+                "Collaborated effectively with the development team to implement design.",
+                "Implemented interactive elements like contact forms, functionalities with JavaScript and PHP.",
+                "Created original designs, responsive sites, and SEO optimization.",
+                "Used JavaScript libraries such as ScrollReveal.js.",
+              ],
+              media: ["/projects/high.gif"],
+            },
+            {
+              title: "Muebleria Amoblarte",
+              description:
+                "Mueblería Amoblarte specializes in furniture design and marketing for elegant and functional home spaces. Responsibilities:",
+              responsibilities: [
+                "Implemented functionalities and animations with JavaScript.",
+                "Developed product image gallery.",
+                "Managed employment opportunities section.",
+              ],
+              media: ["/projects/MuebleriaAmoblarte.gif"],
+            },
+            {
+              title: "Herreria Altar",
+              description:
+                "Altar Constructions and Blacksmithing is a workshop specializing in blacksmithing and constructions. My responsibilities were:",
+              responsibilities: [
+                "Converted graphic designs (PSD/XD) to HTML, CSS, and JavaScript.",
+                "Applied animations and visual effects to enhance the page.",
+                "Included links and icons connecting to social networks.",
+                "Used mixins and SASS functions to encapsulate reusable styles.",
+              ],
+              media: ["/projects/herreria.gif"],
+            },
+          ]}
+        />
 
-                <Reveal>
-                  <h2 className="text-2xl mb-2  text-white font-bold">
-                    {" "}
-                    Quarks Consulting
-                  </h2>
-                  <p>
-                    At Quarks Consulting, leader in comprehensive outsourcing
-                    services for the management of salaries and payrolls, I
-                    contributed to the creation of an innovative platform that
-                    facilitates communication and also transmits and values the
-                    services of the company. My key responsibilities included:
-                  </p>
-                  <p className="mt-2">
-                    - Interactive Features: implement forms of communication
-                    effective, with functional contact forms with PHP
-                  </p>
-                  <p>
-                    - Implementation of functionalities and animations with
-                    Javascript
-                  </p>
-                  <p>
-                    - Collaboration with UX/UI Designer: Work as a team with a
-                    designer specialized in creating interfaces in Figma to
-                    convert your designs.
-                  </p>
+        <ExperienceCard
+          company="AutoescuelaSion"
+          role="Web Developer"
+          date="Jul. 2020 - January 2023"
+          description="At AutoescuelaSion, an innovative door-to-door driving school platform door, I had a role in the administration of the website, improving its functionalities and expanding your online presence in addition to working closely as administrative for the company. My responsibilities They covered:"
+          projects={[
+            {
+              title: "Web developer",
+              description: "",
+              responsibilities: [
+                "Develop and optimize the website using technologies such as React and Vite to improve user experience and loading speed.",
 
-                  <Image
-                    width={500}
-                    height={500}
-                    src={"/projects/Quarks.gif"}
-                    className="w-full object-cover object-center my-8  sm:h-[400px] h-[250px] rounded-lg "
-                    alt="imagen"
-                  ></Image>
-                </Reveal>
+                " Manage and update the website, implementing new functionalities and optimizing content to improve user experience",
 
-             
-    
-     
+                "Collaborate in the development of customer acquisition strategies, contributing to improving the services offered and customer satisfaction.",
 
-                <Reveal>
-                  <h2 className="text-2xl mb-2  text-white font-bold ">
-                    {" "}
-                    High Web Design
-                  </h2>
-                  <p>
-                    This project marks my first step into the world of web
-                    design, focusing on creating a stunning landing page for
-                    High Web Design with a focus on customer acquisition. , an
-                    initiative that represents my initial foray into web design
-                    with the clear objective of offering effective solutions to
-                    elevate businesses to the highest level in the digital
-                    field. My responsibilities were:
-                  </p>
-                  <p className="mt-2">
-                    - Effective collaboration with the development team to
-                    ensure proper implementation of the design.
-                  </p>
-                  <p>
-                    - Interactive Elements: Implementation of interactive
-                    elements, such as contact forms, functionalities with
-                    javascript and php
-                  </p>
-                  <p>
-                    - Creation of original designs, responsive sites and SEO
-                    optimization. ​
-                  </p>
+                "I implemented components and layouts using Bootstrap, improving the aesthetics and the functionality of the site.",
 
-                  <p>
-                    - Implementation of javascript libraries such as
-                    ScrollReveal.js
-                  </p>
+                "Oversaw social media strategy, expanding online presence and effectively highlighting services",
 
-                  <Image
-                    width={500}
-                    height={500}
-                    src={"/projects/high.gif"}
-                    className="w-full my-8 object-cover object-center  sm:h-[400px] h-[250px] rounded-lg "
-                    alt="imagen_high"
-                  ></Image>
-                </Reveal>
-
-                <Reveal>
-                  <h2 className="text-2xl mb-2  text-white font-bold">
-                    {" "}
-                    Muebleria Amoblarte
-                  </h2>
-                  <p>
-                    Mueblería Amoblarte is a company dedicated to the design and
-                    marketing of furniture, specializing in the creation of
-                    elegant and functional spaces for the home. My
-                    responsibilities were:
-                  </p>
-                  <p className="mt-2">
-                    - Implementation of functionalities and animations with
-                    Javascript
-                  </p>
-                  <p>- Product Image Gallery</p>
-                  <p>- Employment Opportunities</p>
-
-                  <Image
-                    width={500}
-                    height={500}
-                    src={"/projects/MuebleriaAmoblarte.gif"}
-                    className="w-full sm:h-[400px] h-[250px] object-cover object-center my-8  rounded-lg    "
-                    alt="imagen_high"
-                  ></Image>
-                </Reveal>
-
-
-
-                <Reveal>
-            <div className="grid gap-4">
-              <div className="grid gap-4">
-                <Reveal>
-                  <h2 className="text-2xl  text-white font-bold ">
-                    {" "}
-                    Herreria Altar
-                  </h2>
-                  <p>
-                  Altar Constructions and Blacksmithing is a workshop specialized in blacksmithing and constructions, my responsibilities were:
-                  </p>
-                  <p className="mt-2">
-                    - Transformation of graphic designs provided in PSD or XD files to HTML, CSS and JavaScript code.
-                  </p>
-                  <p>
-                    - Application of animations and visual effects to make the page more attractive.
-                  </p>
-                  <p>
-                    - Inclusion of links and icons to connect with the blacksmith's social networks.
-                  </p>
-                  <p>
-                    - Used mixins and SASS functions to encapsulate reusable styles and simplify style management
-                  </p>
-               
-
-          
-
-                  <Image
-                    width={500}
-                    height={500}
-                    src={"/projects/herreria.gif"}
-                    className="w-full my-8 sm:h-[400px] h-[250px] object-cover object-center  rounded-lg "
-                    alt="imagen_product_sion"
-                  ></Image>
-                </Reveal>
-              </div>
-            </div>
-          </Reveal>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-
-        <div className="flex gap-8">
-          <Reveal>
-            <div className="grid gap-4">
-              <div className="flex justify-between">
-                <Reveal>
-                  <div className="">
-                    <p className="text-gray-500 mb-1">AutoescuelaSion</p>
-                    <h3 className="font-bold text-3xl  ">
-                      Web developer | Administrative | Sales
-                    </h3>
-                  </div>
-                </Reveal>
-                <Reveal>
-                  <p className="text-gray-500 hidden md:flex">
-                    Jul. 2020 - January 2023
-                  </p>
-                </Reveal>
-              </div>
-              <div className="grid gap-4">
-                <Reveal>
-                  <h2 className="text-2xl  text-white font-bold ">
-                    {" "}
-                    AutoescuelaSion
-                  </h2>
-                  <p>
-                    At AutoescuelaSion, an innovative door-to-door driving
-                    school platform door, I had a role in the administration of
-                    the website, improving its functionalities and expanding
-                    your online presence in addition to working closely as
-                    administrative for the company. My responsibilities They
-                    covered:
-                  </p>
-                  <p className="mt-2">
-                    - Develop and optimize the website using technologies such
-                    as React and Vite to improve user experience and loading
-                    speed.
-                  </p>
-                  <p>
-                    - Manage and update the website, implementing new
-                    functionalities and optimizing content to improve user
-                    experience.
-                  </p>
-                  <p>
-                    - Collaborate in the development of customer acquisition
-                    strategies, contributing to improving the services offered
-                    and customer satisfaction.
-                  </p>
-                  <p>
-                    - I implemented components and layouts using Bootstrap,
-                    improving the aesthetics and the functionality of the site.
-                  </p>
-                  <p>
-                    - Oversaw social media strategy, expanding online presence
-                    and effectively highlighting services
-                  </p>
-
-                  <p>- On the second site implement Next js,Tailwind.</p>
-
-                  <Image
-                    width={500}
-                    height={500}
-                    src={"/projects/productoSion.gif"}
-                    className="w-full my-8 sm:h-[400px] h-[250px] object-cover object-center  rounded-lg "
-                    alt="imagen_product_sion"
-                  ></Image>
-
-                  <Image
-                    width={500}
-                    height={500}
-                    src={"/projects/autoescuelasion.gif"}
-                    className="w-full   sm:h-[400px] h-[250px]  object-cover object-center  rounded-lg my-0"
-                    alt="imagen_product_sion"
-                  ></Image>
-                </Reveal>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-
-     
+                "On the second site implement Next js,Tailwind.",
+              ],
+              media: [
+                "/projects/autoescuelasion.gif",
+                "/projects/productoSion.gif",
+              ],
+            },
+          ]}
+        />
       </Element>
     </section>
-  );
+  )
 }

@@ -1,20 +1,24 @@
-import './globals.css';
-import type { Metadata } from 'next';
+import "./globals.css"
+import type { Metadata } from "next"
 
-import { Inter } from 'next/font/google';
+import { Inter } from "next/font/google"
 
-import Navbar from '@/Components/Navbar';
-import Footer from '@/Components/Footer';
-import ScrollTopButton from '@/Components/ScrollTopButton';
+import Navbar from "@/Components/Navbar"
+import Footer from "@/Components/Footer"
+import ScrollTopButton from "@/Components/ScrollTopButton"
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Nicolas Gonzalez',
-  description: 'Nicolas Gonzalez | Frontend Software Developer',
-};
+  title: "Nicolas Gonzalez",
+  description: "Nicolas Gonzalez | Frontend Software Developer",
+}
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -26,5 +30,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </div>
       </body>
     </html>
-  );
+  )
 }
