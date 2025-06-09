@@ -4,7 +4,7 @@ import { config } from "@/config"
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between items-center   w-full  max-w-5xl text-center tracking-wide text-xs gap-4 py-12 ">
+    <footer className="flex justify-between items-center px-5 md:px-0 w-full  max-w-5xl text-center tracking-wide text-xs gap-4 py-12 ">
       <p className="text-lg font-semibold">Nicolas Gonzalez</p>
       <div className="h-full bg-slate-400 " style={{ width: "1px" }} />
       <div className="flex gap-2 items-center justify-end flex-1">
