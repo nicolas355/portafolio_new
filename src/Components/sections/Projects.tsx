@@ -1,19 +1,19 @@
-'use client';
-import { Element } from 'react-scroll';
+"use client"
+import { Element } from "react-scroll"
 
-import { config } from '@/config';
+import { config } from "@/config"
 
-import SectionTitle from '../SectionTitle';
-import ProjectItem from '../ProjectItem';
-import Reveal from '../Reveal';
+import SectionTitle from "../SectionTitle"
+import ProjectItem from "../ProjectItem"
+import Reveal from "../Reveal"
 
 export default function Projects() {
   return (
     <section>
-      <Element className="grid gap-10" name="projects">
+      <Element className="grid gap-10 " name="projects">
         <SectionTitle title="Others Projects" />
         <Reveal>
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mx-auto">
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-10">
             {config.projects.map((project, index) => (
               <ProjectItem
                 key={index}
@@ -29,5 +29,5 @@ export default function Projects() {
         </Reveal>
       </Element>
     </section>
-  );
+  )
 }

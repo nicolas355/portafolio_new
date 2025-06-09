@@ -57,7 +57,7 @@ export const config = {
   projects: [
 
 
-    { name: 'TastyGo', description: 'TastyGo is a food ordering platform built with Next.js 15 and TypeScript for fast, efficient orders. It uses Prisma ORM to send orders to a kitchen board in real-time, enabling easy management. Tailwind CSS and ShadCN provide a responsive, stylish interface, while Lucide Icons enhance navigation. The REST API ensures seamless communication between users and the kitchen board.', url: 'https://food-app-llcc.vercel.app/', github: '', image: '/projects/tastygo.png', tech: ['React', 'Next.js 15', 'Postgresql', 'TypeScript', 'Prisma ORM', 'Tailwind CSS', 'ShadCN', 'Lucide Icons','Context'], id: 'tastygo', },
+    { name: 'TastyGo', description: 'TastyGo is a food ordering platform built with Next.js 15 and TypeScript for fast, efficient orders. It uses Prisma ORM to send orders to a kitchen board in real-time, enabling easy management. Tailwind CSS and ShadCN provide a responsive, stylish interface, while Lucide Icons enhance navigation.', url: 'https://food-app-llcc.vercel.app/', github: '', image: '/projects/tastygo.png', tech: ['React', 'Next.js 15', 'Postgresql', 'TypeScript', 'Prisma ORM', 'Tailwind CSS', 'ShadCN', 'Lucide Icons','Context'], id: 'tastygo', },
 
 
 

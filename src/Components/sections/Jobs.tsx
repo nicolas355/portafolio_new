@@ -19,7 +19,7 @@ export default function Jobs() {
               title: "Labbi",
               description: "",
               responsibilities: [
-                "Development and layout of the Labbi website (https://www.labbi.com.ar/) by Industrias Bagó using React with styles implemented using SASS and Material UI components, ensuring a responsive and modern interface.",
+                "Development and layout of the Labbi website by Industrias Bagó using React with styles implemented using SASS and Material UI components, ensuring a responsive and modern interface.",
                 "Implementation and customization of reusable MaterialUI components, adapting them to the design guidelines provided by the team.",
                 "Management of the application's global state using Redux, facilitating communication between components and improving project scalability.",
                 "Performance optimization and bug fixes.",
