@@ -7,7 +7,7 @@ import Skills from "@/Components/sections/Skills"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col   justify-between  ">
+    <main className="flex min-h-screen flex-col px-5 md:px-0  justify-between  ">
       <Hero />
       <div className="grid gap-20">
         <About />
