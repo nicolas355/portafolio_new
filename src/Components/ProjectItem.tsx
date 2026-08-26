@@ -1,70 +1,115 @@
-import Image from 'next/image';
+import Image from "next/image"
 
 interface Props {
-  title: string;
-  description: string;
-  image: string;
-  url: string;
-  github: string;
-  tech: string[];
+  title: string
+  description: string
+  problem?: string
+  solution?: string
+  image: string
+  url?: string
+  github?: string
+  tech: string[]
+  features?: string[]
 }
 
-const ProjectItem: React.FC<Props> = ({ title, description, image, url, github, tech }) => {
+const ProjectItem: React.FC<Props> = ({
+  title,
+  description,
+  problem,
+  solution,
+  image,
+  url,
+  github,
+  tech,
+  features,
+}) => {
   return (
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow  grid dark:bg-zinc-800 dark:border-gray-700 "> 
-      <a className="flex justify-center h-[200px] object-cover object-center " href={url} target="_blank">
-        <Image
-          alt=""
-          className="rounded-t-lg object-cover w-full h-full"
-          height={50}
-          src={image}
-          width={400}
-        />
-      </a>
-      <div className="p-5 flex flex-col justify-between">
-        <div>
-          <a href={url} target="_blank">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              {title}
-            </h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{description}</p>
-          <div className="pb-4 whitespace-break-spaces flex flex-wrap">
-            {tech.map((tech) => (
-              <span
-                key={tech}
-                className="bg-gray-100 text-gray-800 text-xs font-medium mr-2 mb-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500 uppercase whitespace-nowrap"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
+    <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-surface transition hover:border-accent/30">
+      {url ? (
         <a
-          className="justify-center inline-flex items-center px-3 py-2 text-sm font-medium text-center text-black bg-blue-500 rounded-lg hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-300 dark:hover:bg-blue-400 dark:focus:ring-blue-300"
+          className="relative block h-44 overflow-hidden border-b border-white/10"
           href={url}
+          rel="noreferrer"
           target="_blank"
         >
-          Demo
-          <svg
-            aria-hidden="true"
-            className="w-3.5 h-3.5 ml-2"
-            fill="none"
-            viewBox="0 0 14 10"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 5h12m0 0L9 1m4 4L9 9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-            />
-          </svg>
+          <Image
+            alt={`${title} screenshot`}
+            className="h-full w-full object-cover object-top transition duration-300 hover:scale-[1.02]"
+            height={360}
+            src={image}
+            width={640}
+            sizes="(max-width: 640px) 100vw, 50vw"
+          />
         </a>
+      ) : (
+        <div className="relative h-44 overflow-hidden border-b border-white/10">
+          <Image
+            alt={`${title} screenshot`}
+            className="h-full w-full object-cover object-top"
+            height={360}
+            src={image}
+            width={640}
+            sizes="(max-width: 640px) 100vw, 50vw"
+          />
+        </div>
+      )}
+      <div className="flex flex-1 flex-col gap-3 p-5">
+        <h3 className="text-lg font-semibold text-white">{title}</h3>
+        <p className="text-sm leading-6 text-muted">{description}</p>
+        {problem ? (
+          <p className="text-sm leading-6 text-zinc-300">
+            <span className="font-medium text-white">Problem. </span>
+            {problem}
+          </p>
+        ) : null}
+        {solution ? (
+          <p className="text-sm leading-6 text-zinc-300">
+            <span className="font-medium text-white">Solution. </span>
+            {solution}
+          </p>
+        ) : null}
+        {features?.length ? (
+          <ul className="text-sm text-muted">
+            {features.map((feature) => (
+              <li key={feature}>· {feature}</li>
+            ))}
+          </ul>
+        ) : null}
+        <ul className="flex flex-wrap gap-2">
+          {tech.map((item) => (
+            <li
+              className="rounded-full border border-white/10 px-2.5 py-1 text-xs text-zinc-300"
+              key={item}
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+        <div className="mt-auto flex gap-4 pt-2">
+          {url ? (
+            <a
+              className="text-sm font-medium text-accent hover:text-white"
+              href={url}
+              rel="noreferrer"
+              target="_blank"
+            >
+              Live demo
+            </a>
+          ) : null}
+          {github ? (
+            <a
+              className="text-sm font-medium text-zinc-300 hover:text-white"
+              href={github}
+              rel="noreferrer"
+              target="_blank"
+            >
+              GitHub
+            </a>
+          ) : null}
+        </div>
       </div>
-    </div>
-  );
-};
+    </article>
+  )
+}
 
-export default ProjectItem;
+export default ProjectItem

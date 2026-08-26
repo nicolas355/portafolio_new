@@ -1,29 +1,26 @@
-import Image from "next/image"
-
 import { config } from "@/config"
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between items-center px-5 md:px-0 w-full  max-w-5xl text-center tracking-wide text-xs gap-4 py-12 ">
-      <p className="text-lg font-semibold">Nicolas Gonzalez</p>
-      <div className="h-full bg-slate-400 " style={{ width: "1px" }} />
-      <div className="flex gap-2 items-center justify-end flex-1">
-        {config.socialMedia.map((socialMedia) => (
-          <a
-            key={socialMedia.name}
-            className="hover:scale-105 opacity-70"
-            href={socialMedia.url}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <Image
-              alt={socialMedia.name}
-              height={30}
-              src={socialMedia.image}
-              width={30}
-            />
+    <footer className="border-t border-white/5">
+      <div className="mx-auto flex max-w-content flex-col gap-4 px-5 py-8 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <p>© 2026 {config.name}</p>
+        <div className="flex flex-wrap gap-4">
+          {config.socialMedia.map((social) => (
+            <a
+              className="hover:text-white"
+              href={social.url}
+              key={social.name}
+              rel="noreferrer"
+              target="_blank"
+            >
+              {social.name}
+            </a>
+          ))}
+          <a className="hover:text-white" href={`mailto:${config.email}`}>
+            Email
           </a>
-        ))}
+        </div>
       </div>
     </footer>
   )

@@ -1,42 +1,57 @@
 "use client"
 
-import ContactBtn from "../ContactButton"
+import { config } from "@/config"
+import Button from "../Button"
+import HeroVisual from "../HeroVisual"
 import Reveal from "../Reveal"
+import SocialLinks from "../SocialLinks"
 
 export default function Hero() {
   return (
-    <section
-      className="flex flex-col md:flex-row gap-4 h-screen items-center"
-      id="home"
-    >
-      <div className="flex flex-col gap-4 h-full justify-center items-center md:items-start">
-        <div className="grid text-center place-items-center md:place-items-start md:text-start">
-          <Reveal>
-            <h2 className="font-bold flex text-3xl xl:text-5xl">
-              Hi, my name is
-            </h2>
+    <section className="relative border-b border-white/5" id="home">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(132,182,255,0.08),transparent_45%)]" />
+      <div className="mx-auto grid max-w-content items-center gap-12 px-5 py-16 sm:px-8 lg:min-h-[calc(100vh-4rem)] lg:grid-cols-[1.1fr_0.9fr] lg:py-20">
+        <div className="grid gap-4">
+          <Reveal width="fit-content">
+            <p className="text-caption font-medium uppercase text-accent">
+              {config.name}
+            </p>
           </Reveal>
-          <Reveal>
-            <h1 className="font-extrabold text-6xl xl:text-7xl">
-              Nicolas Gonzalez
-            </h1>
+          <Reveal delay={0.05} width="fit-content">
+            <h1 className="text-h1 text-white">{config.role}</h1>
+          </Reveal>
+          <Reveal delay={0.1} width="fit-content">
+            <p className="text-lg text-zinc-300">
+              {config.stack.join(" · ")}
+            </p>
+          </Reveal>
+          <Reveal delay={0.15} width="fit-content">
+            <p className="max-w-xl text-xl font-medium tracking-tight text-white">
+              I build modern, scalable and user-focused web applications.
+            </p>
+          </Reveal>
+          <Reveal delay={0.2} width="fit-content">
+            <p className="max-w-xl text-base leading-7 text-muted">
+              Frontend developer focused on React, Next.js and TypeScript, with
+              experience shipping real-world products, reusable UI and
+              performance-minded interfaces. I also connect apps to APIs,
+              databases and automation when the product needs it.
+            </p>
+          </Reveal>
+          <Reveal delay={0.25} width="fit-content">
+            <div className="mt-4 flex flex-wrap gap-3">
+              <Button href="#projects">View my work</Button>
+              <Button href="#contact" variant="ghost">
+                Let&apos;s talk
+              </Button>
+            </div>
+          </Reveal>
+          <Reveal delay={0.3} width="fit-content">
+            <SocialLinks className="mt-2" />
           </Reveal>
         </div>
-        <div className="grid text-center place-items-center md:place-items-start md:text-start">
-          <Reveal>
-            <h2 className="text-3xl xl:text-4xl">
-              I am{" "}
-              <span className="text-blue-300  font-extrabold xl:text-4xl text-4xl whitespace-nowrap">
-                Frontend Developer
-              </span>
-            </h2>
-          </Reveal>
-          <Reveal>
-            <h2 className=" xl:text-2xl text-xl">I build things for the web</h2>
-          </Reveal>
-        </div>
-        <Reveal>
-          <ContactBtn />
+        <Reveal delay={0.2}>
+          <HeroVisual />
         </Reveal>
       </div>
     </section>

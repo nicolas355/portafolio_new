@@ -1,56 +1,35 @@
-'use client';
-import { Link } from 'react-scroll';
-import Image from 'next/image';
-import { useState, useCallback, useEffect } from 'react';
+"use client"
+
+import { useCallback, useEffect, useState } from "react"
+
 interface Props {
-  limit: number;
-  right?: number | string | object;
-  bottom?: number | string | object;
-  translateY?: string;
-  accessibilityContent?: string;
+  limit: number
 }
 
-const ScrollTopButton: React.FC<Props> = ({
-  limit,
-  right = 10,
-  bottom = 10,
-  translateY = '30px',
-  accessibilityContent = 'Go to top',
-}) => {
-  const [hasScrolled, setHasScrolled] = useState<boolean>(false);
+const ScrollTopButton: React.FC<Props> = ({ limit }) => {
+  const [hasScrolled, setHasScrolled] = useState(false)
 
-  const handleScroll = useCallback((): void => {
-    if (!hasScrolled && window.scrollY >= limit) {
-      setHasScrolled(true);
-    } else if (hasScrolled && window.scrollY < limit) {
-      setHasScrolled(false);
-    }
-  }, [limit, hasScrolled]);
+  const handleScroll = useCallback(() => {
+    setHasScrolled(window.scrollY >= limit)
+  }, [limit])
 
   useEffect(() => {
-    document.addEventListener('scroll', handleScroll);
-
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
-  }, [handleScroll]);
+    handleScroll()
+    window.addEventListener("scroll", handleScroll, { passive: true })
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [handleScroll])
 
   return (
-    <Link
-      className="hidden md:flex z-10 items-center justify-center bg-blue-300 w-16 h-16 rounded-full fixed transition-all ease-in-out right-20 bottom-20 hover:cursor-pointer"
-      duration={500}
-      offset={-100}
-      smooth={true}
-      style={{
-        opacity: hasScrolled ? 1 : 0,
-        pointerEvents: hasScrolled ? 'initial' : 'none',
-        transform: !hasScrolled ? `translateY(${translateY})` : '',
-      }}
-      to="home"
+    <a
+      aria-label="Back to top"
+      className={`fixed bottom-6 right-6 z-40 hidden h-12 w-12 items-center justify-center rounded-full bg-accent text-zinc-950 transition md:flex ${
+        hasScrolled ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-3 opacity-0"
+      }`}
+      href="#home"
     >
-      <Image alt="Scroll top" height={40} src="/arrow.svg" width={40} />
-    </Link>
-  );
-};
+      ↑
+    </a>
+  )
+}
 
-export default ScrollTopButton;
+export default ScrollTopButton
