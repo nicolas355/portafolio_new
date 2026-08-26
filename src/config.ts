@@ -6,7 +6,7 @@ export const config = {
   stack: ["React", "Next.js", "TypeScript", "JavaScript"],
   email: "gonzaleznicolas8000@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1AI8juWrakU20sxaMI84VDh2GPWu3AWAF/view",
+    "https://drive.google.com/file/d/1X8e8K_5vbMRlTwyqLBf5rWBZOkUyRb02/view",
   socialMedia: [
     {
       name: "GitHub",
